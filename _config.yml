@@ -1,0 +1,11 @@
+title: Online CV
+logo: img/bioinformatics_cat.png
+description_header: Keisuke Hirota
+description_content: 
+show_downloads: False
+github:
+  is_project_page: True
+  owner_name: hirotak22
+  owner_url: https://github.com/hirotak22
+google_analytics:
+theme: jekyll-theme-minimal

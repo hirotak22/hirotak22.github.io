@@ -35,9 +35,9 @@ layout: default
 ## Experience
 
 |:-----|:-----|:-----|
+| 2024/09 - Present | 千葉大学大学院医学研究院 | 特任研究員 |
 | 2022/11 - Present | 株式会社メタジェン | インターンシップ |
 | 2022/08 - Present | 東京工業大学 山田研究室 | Research Assistant |
-
 
 ## Award
 

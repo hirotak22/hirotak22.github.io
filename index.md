@@ -28,6 +28,8 @@ layout: default
 - **<u>Hirota K</u>**, Salim F, Yamada T. **[DeepES: Deep learning-based enzyme screening to identify orphan enzyme genes](https://doi.org/10.1101/2024.05.09.592857)**, *bioRxiv*. 2024.05.09.592857.
 
 ## Conference
+- **<u>Keisuke HIROTA</u>**, Takuji YAMADA. **Deep learning-based enzyme screening to identify orphan enzyme genes**, CBI学会2024年大会, P03-12, タワーホール船堀, 2024年10月(ポスター発表)
+- **<u>廣田佳亮</u>**, 山田拓司. **オーファン酵素探索のための深層学習を用いた酵素スクリーニング手法の開発**, 生命情報科学若手の会 第16回年会, 21, ニューウェルシティ湯河原, 2024年9月(ポスター発表)
 - **<u>廣田佳亮</u>**, 山田拓司. **オーファン酵素遺伝子特定のための酵素機能予測モデルの開発**, 日本農芸化学会2024年度大会, 2B4p06, 東京農業大学世田谷キャンパス, 2024年3月(口頭発表)
 - **<u>廣田佳亮</u>**, 山田拓司. **オーファン酵素遺伝子探索のための深層学習を用いた酵素機能予測モデルの開発**, 第18回日本ゲノム微生物学会年会, 3O1-08, かずさアカデミアホール, 2024年3月(口頭発表)
 - **<u>廣田佳亮</u>**, 山田拓司. **Development of deep learning model for gene function prediction**, 2023年日本バイオインフォマティクス学会年会 第12回生命医薬情報学連合大会, P-13, 柏の葉カンファレンスセンター, 2023年9月(ポスター発表)

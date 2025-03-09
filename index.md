@@ -3,7 +3,7 @@ layout: default
 ---
 # Profile
 ## About
-東京工業大学 生命理工学院 生命理工学系 生命理工学コース所属修士2年の**廣田 佳亮 (Hirota Keisuke)**です。
+東京科学大学 (旧東京工業大学) 生命理工学院 生命理工学系 生命理工学コース所属修士2年の**廣田 佳亮 (Hirota Keisuke)**です。
 現在、主に[山田研究室](https://comp.bio.titech.ac.jp/)にて、**AI開発**や**メタゲノム解析**を中心に**バイオインフォマティクス**に取り組んでいます。
 
 **E-mail: hirota.k.ag\[at\]m.titech.ac.jp**
@@ -16,7 +16,7 @@ layout: default
 
 ## Research
 ### 酵素スクリーニングのためのAI開発
-酵素は、生物の活動に必須な生体触媒であるだけでなく、幅広い産業にも応用されている重要なタンパク質です。本研究では、その中でも特に「オーファン酵素」と呼ばれる遺伝子配列が未知である酵素に注目し、酵素の機能をもとに候補遺伝子を多種多様なゲノムから探索するためのAI手法の開発に取り組んでいます。現在、本研究の成果は査読あり学術誌に投稿中です。
+酵素は、生物の活動に必須な生体触媒であるだけでなく、幅広い産業にも応用されている重要なタンパク質です。本研究では、その中でも特に「オーファン酵素」と呼ばれる遺伝子配列が未知である酵素に注目し、酵素の機能をもとに候補遺伝子を多種多様なゲノムから探索するためのAI手法の開発に取り組んでいます。 (Hirota K et al. *Bioinformatics* 2025)
 
 ### ヒト腸内細菌叢を対象としたメタゲノム解析
 所属研究室の主な研究テーマである「ヒト腸内細菌叢と疾患の関連」に関して、共同研究や研究室のデータ基盤のため、解析パイプラインの整備および実行を担っています。
@@ -25,7 +25,7 @@ layout: default
 株式会社メタジェンでの長期インターンにおいて、ヒト腸内細菌とヘルスケアに関するデータ解析に取り組んでいます。
 
 ## Publicaion
-- **<u>Hirota K</u>**, Salim F, Yamada T. **[DeepES: Deep learning-based enzyme screening to identify orphan enzyme genes](https://doi.org/10.1101/2024.05.09.592857)**, *bioRxiv*. 2024.05.09.592857.
+- **<u>Keisuke Hirota</u>**, Felix Salim, Takuji Yamada, **[DeepES: Deep learning-based enzyme screening to identify orphan enzyme genes](https://doi.org/10.1093/bioinformatics/btaf053)**, *Bioinformatics*. Volume 41, Issue 3, March 2025, btaf053
 
 ## Conference
 - **<u>Keisuke HIROTA</u>**, Takuji YAMADA. **Deep learning-based enzyme screening to identify orphan enzyme genes**, CBI学会2024年大会, P03-12, タワーホール船堀, 2024年10月(ポスター発表)
@@ -38,8 +38,8 @@ layout: default
 
 |:-----|:-----|:-----|
 | 2024/09 - Present | 千葉大学大学院医学研究院 | 特任研究員 |
-| 2022/11 - Present | 株式会社メタジェン | インターンシップ |
 | 2022/08 - Present | 東京工業大学 山田研究室 | Research Assistant |
+| 2022/11 - 2025/02 | 株式会社メタジェン | インターンシップ |
 
 ## Award
 

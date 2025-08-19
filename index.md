@@ -17,7 +17,7 @@ layout: default
 
 ## Research
 ### 酵素スクリーニングのためのAI開発
-酵素は、生物の活動に必須な生体触媒であるだけでなく、幅広い産業にも応用されている重要なタンパク質です。本研究では、その中でも特に「オーファン酵素」と呼ばれる遺伝子配列が未知である酵素に注目し、酵素の機能をもとに候補遺伝子を多種多様なゲノムから探索するためのAI手法の開発に取り組んでいます。 (Hirota K et al. *Bioinformatics* 2025)
+酵素は、生物の活動に必須な生体触媒であるだけでなく、幅広い産業にも応用されている重要なタンパク質です。本研究では、その中でも特に「オーファン酵素」と呼ばれる遺伝子配列が未知である酵素に注目し、酵素の機能をもとに候補遺伝子を多種多様なゲノムから探索するためのAI手法の開発に取り組んでいます。 (Hirota K et al. *Bioinformatics* 2025, Hirota K et al. *bioRxiv* 2025)
 
 ### ヒト腸内細菌叢を対象としたメタゲノム解析
 所属研究室の主な研究テーマである「ヒト腸内細菌叢と疾患の関連」に関して、共同研究や研究室のデータ基盤のため、解析パイプラインの整備および実行を担っています。
@@ -26,9 +26,13 @@ layout: default
 株式会社メタジェンでの長期インターンにおいて、ヒト腸内細菌とヘルスケアに関するデータ解析に取り組んでいます。
 
 ## Publicaion
+- **<u>Keisuke Hirota</u>**, Takuji Yamada. **[DeepRES: Deep learning enables reaction-based comprehensive enzyme screening](https://doi.org/10.1101/2025.07.28.667344)**, *bioRxiv*. 2025.07.28.667344.
 - **<u>Keisuke Hirota</u>**, Felix Salim, Takuji Yamada, **[DeepES: Deep learning-based enzyme screening to identify orphan enzyme genes](https://doi.org/10.1093/bioinformatics/btaf053)**, *Bioinformatics*. Volume 41, Issue 3, March 2025, btaf053
 
 ## Conference
+- **<u>廣田佳亮</u>**, 山田拓司. **オーファン酵素遺伝子探索のための深層学習を用いた酵素スクリーニング手法の開発**, 第7回日本メディカルAI学会学術集会, P-2-26, 国立京都国際会館, 2025年6月(ポスター発表)
+- **<u>廣田佳亮</u>**, 山田拓司. **Deep learning-based enzyme screening to identify orphan　enzyme**, 第98回日本細菌学会総会, P2-67, 石川県立音楽堂, 2025年5月(ポスター発表)
+- 佐藤龍飛, **<u>廣田佳亮</u>**, 山田拓司. **Prediction of medium components for bacteria using Machine Learning**, 第98回日本細菌学会総会, P2-70, 石川県立音楽堂, 2025年5月(ポスター発表)
 - **<u>Keisuke HIROTA</u>**, Takuji YAMADA. **Deep learning-based enzyme screening to identify orphan enzyme genes**, CBI学会2024年大会, P03-12, タワーホール船堀, 2024年10月(ポスター発表)
 - **<u>廣田佳亮</u>**, 山田拓司. **オーファン酵素探索のための深層学習を用いた酵素スクリーニング手法の開発**, 生命情報科学若手の会 第16回年会, 21, ニューウェルシティ湯河原, 2024年9月(ポスター発表)
 - **<u>廣田佳亮</u>**, 山田拓司. **オーファン酵素遺伝子特定のための酵素機能予測モデルの開発**, 日本農芸化学会2024年度大会, 2B4p06, 東京農業大学世田谷キャンパス, 2024年3月(口頭発表)
@@ -56,6 +60,7 @@ layout: default
 ## Others
 
 |:-----|:-----|:-----|
+| 2025/08 | 子どもサイエンス教室「腸内細菌ってなんだ?」2025 夏 | スタッフ |
 | 2024/04 | Dry×Wet 生命科学アイデアソン@INDEST | 企画・メンター |
 | 2024/03 | 子どもサイエンス教室「腸内細菌ってなんだ?」2024 春 | スタッフ |
 | 2023/11 | 子どもサイエンス教室「腸内細菌ってなんだ?」in 那覇 | スタッフ |

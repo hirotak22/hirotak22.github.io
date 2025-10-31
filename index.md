@@ -30,6 +30,7 @@ layout: default
 - **<u>Keisuke Hirota</u>**, Felix Salim, Takuji Yamada, **[DeepES: Deep learning-based enzyme screening to identify orphan enzyme genes](https://doi.org/10.1093/bioinformatics/btaf053)**, *Bioinformatics*. Volume 41, Issue 3, March 2025, btaf053
 
 ## Conference
+- **<u>Keisuke HIROTA</u>**, Takuji YAMADA. **DeepRES: Deep learning enables reaction-based comprehensive enzyme screening**, CBI学会2025年大会, O05-04, タワーホール船堀, 2025年10月(口頭発表) <font color="#00afcc">(口頭発表賞・学生発表奨励賞受賞)</font>
 - **<u>廣田佳亮</u>**, 山田拓司. **DeepRES: Deep learning enables reaction-based comprehensive enzyme screening**, 2025年日本バイオインフォマティクス学会年会 第13回生命医薬情報学連合大会 (IIBMP2025), OS-304, 名古屋大学豊田講堂・シンポジオン, 2025年9月(口頭発表)
 - **<u>廣田佳亮</u>**, 山田拓司. **DeepRES: Deep learning enables reaction-based comprehensive enzyme screening**, 2025年日本バイオインフォマティクス学会年会 第13回生命医薬情報学連合大会 (IIBMP2025), PO-152, 名古屋大学豊田講堂・シンポジオン, 2025年9月(ポスター発表)
 - **<u>廣田佳亮</u>**, 山田拓司. **オーファン酵素遺伝子探索のための深層学習を用いた酵素スクリーニング手法の開発**, 第7回日本メディカルAI学会学術集会, P-2-26, 国立京都国際会館, 2025年6月(ポスター発表)
@@ -51,6 +52,8 @@ layout: default
 ## Award
 
 |:-----|:-----|:-----|
+| 2025/10 | CBI学会2025年大会 口頭発表賞 | - |
+| 2025/10 | CBI学会2025年大会 学生発表奨励賞 | - |
 | 2023/03 | 令和4年度 東京工業大学優秀学生賞 | 学業成績と人物ともに優秀な学生に贈られる |
 | 2023/03 | 令和4年度 高宮賞 | 東京工業大学生命理工学院生命理工学系の成績優秀者に贈られる |
 

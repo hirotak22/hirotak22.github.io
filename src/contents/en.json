@@ -1,0 +1,129 @@
+{
+  "language": "en",
+  "siteName": "Keisuke Hirota",
+  "alternateLabel": "日本語",
+  "labels": {
+    "profile": "Profile",
+    "email": "Email",
+    "links": "Links",
+    "lastUpdated": "Last updated"
+  },
+  "headings": {
+    "research": "Research",
+    "biography": "Biography",
+    "publications": "Publications",
+    "activities": "Activities"
+  },
+  "profile": {
+    "name": "Keisuke Hirota",
+    "affiliation": "School of Life Science and Technology, Institute of Science Tokyo",
+    "laboratory": "Yamada laboratory",
+    "laboratoryLink": "https://comp.life.isct.ac.jp/",
+    "position": "Ph.D. student",
+    "email": "hirota.k.f777[at]m.isct.ac.jp",
+    "links": [
+      ["Twitter", "https://x.com/h160ta"],
+      ["GitHub", "https://github.com/hirotak22"],
+      ["Researchmap", "https://researchmap.jp/keisukehirota"],
+      ["Google Scholar", "https://scholar.google.com/citations?user=5oq0yQ4AAAAJ"],
+      ["ORCID", "https://orcid.org/0009-0003-6697-2355"]
+    ]
+  },
+  "lastUpdated": "2026/06/18",
+  "researchTopics": [
+    {
+      "title": "Genomic Language Models",
+      "description": "Developing and applying large language models for genomic sequences to understand the underlying biological information.",
+      "works": [
+        {
+          "authors": "Hirota K et al.",
+          "journal": "bioRxiv",
+          "year": "2026",
+          "href": "https://doi.org/10.64898/2026.02.22.707219"
+        }
+      ]
+    },
+    {
+      "title": "In silico Enzyme Screening",
+      "description": "Developing computational methods to identify novel enzyme-encoding genes from large-scale genomic datasets.",
+      "works": [
+        {
+          "authors": "Hirota K et al.",
+          "journal": "Bioinformatics",
+          "year": "2025",
+          "href": "https://doi.org/10.1093/bioinformatics/btaf053"
+        },
+        {
+          "authors": "Hirota K et al.",
+          "journal": "bioRxiv",
+          "year": "2026",
+          "href": "https://doi.org/10.1101/2025.07.28.667344"
+        }
+      ]
+    },
+    {
+      "title": "Bacteria-Phage Interactions in Microbial Communities",
+      "description": "Analyzing metagenomic data to explore microbial diversity and interactions in various environments such as the human gut.",
+      "works": []
+    }
+  ],
+  "biographyItems": [
+    {
+      "period": "2025/04 - 2028/03 (expected)",
+      "affiliation": "Ph.D. in Science, School of Life Science and Technology, Institute of Science Tokyo"
+    },
+    {
+      "period": "2023/04 - 2025/03",
+      "affiliation": "M.S. in Science, School of Life Science and Technology, Institute of Science Tokyo"
+    },
+    {
+      "period": "2019/04 - 2023/03",
+      "affiliation": "B.S. in Engineering, School of Life Science and Technology, Tokyo Institute of Technology"
+    }
+  ],
+  "activities": [
+    {
+      "title": "Experience",
+      "rows": [
+        ["2026/06 - Present", "Research Assistant @ ROIS-ALIS (AI-Empowered Life Science Initiative)"],
+        ["2024/09 - Present", "Researcher @ Chiba University"],
+        ["2022/08 - Present", "Research Assistant @ Institute of Science Tokyo"],
+        ["2022/11 - 2025/02", "Internship @ Metagen, Inc."]
+      ]
+    },
+    {
+      "title": "Award",
+      "rows": [
+        ["2025/10", "Oral Presentation Award", "Chem-Bio Informatics Society (CBI) Annual Meeting 2025."],
+        [
+          "2025/10",
+          "Excellent Student Abstract Award",
+          "Chem-Bio Informatics Society (CBI) Annual Meeting 2025."
+        ],
+        [
+          "2023/03",
+          "FY2022 Takamiya Award",
+          "School of Life Science and Technology, Tokyo Institute of Technology"
+        ],
+        [
+          "2023/03",
+          "FY2022 Tokyo Institute of Technology Academic Excellence Award",
+          "Tokyo Institute of Technology"
+        ]
+      ]
+    },
+    {
+      "title": "Scholarship",
+      "rows": [
+        [
+          "2025/04 - 2028/03",
+          "Tokyo Tech SPRING (currently Science Tokyo Support Program for Doctoral Students)"
+        ]
+      ]
+    },
+    {
+      "title": "Others",
+      "rows": []
+    }
+  ]
+}

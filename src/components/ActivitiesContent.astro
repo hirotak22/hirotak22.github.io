@@ -1,0 +1,56 @@
+---
+import type { SiteContent } from "../contents/types";
+
+type Props = {
+  content: SiteContent;
+};
+
+const { content } = Astro.props;
+
+const preparedActivitySections = content.activities.map((section) => ({
+  ...section,
+  hasThreeColumns: section.rows.some((row) => row.length === 3),
+}));
+
+const toHeadingId = (title: string): string => title.toLowerCase().replace(/\s+/g, "-");
+---
+
+<article class="page-content">
+  <div class="section-heading">
+    <h2>{content.headings.activities}</h2>
+  </div>
+
+  <div class="activity-sections">
+    {
+      preparedActivitySections.map((section) => (
+        <section class="activity-section" aria-labelledby={`${toHeadingId(section.title)}-heading`}>
+          <h2 id={`${toHeadingId(section.title)}-heading`}>{section.title}</h2>
+          <div class="activity-table-wrap">
+            <table
+              class:list={[
+                "activity-table",
+                section.hasThreeColumns ? "activity-table-three-column" : "activity-table-two-column",
+              ]}
+              aria-label={section.title}
+            >
+              <colgroup>
+                <col class="activity-date-column" />
+                {section.hasThreeColumns && <col class="activity-main-column" />}
+                {section.hasThreeColumns && <col class="activity-detail-column" />}
+              </colgroup>
+              <tbody>
+                {section.rows.map((row) => (
+                  <tr>
+                    {row.map((cell, index) => (
+                      <td class:list={{ "activity-date-cell": index === 0 }}>{cell}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      ))
+    }
+  </div>
+</article>

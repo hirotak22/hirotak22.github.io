@@ -1,0 +1,123 @@
+{
+  "language": "ja",
+  "siteName": "Keisuke Hirota",
+  "alternateLabel": "English",
+  "labels": {
+    "profile": "Profile",
+    "email": "Email",
+    "links": "Links",
+    "lastUpdated": "最終更新日"
+  },
+  "headings": {
+    "research": "研究テーマ",
+    "biography": "略歴",
+    "publications": "論文",
+    "presentations": "学会発表",
+    "activities": "活動"
+  },
+  "profile": {
+    "name": "廣田 佳亮 (Keisuke Hirota)",
+    "affiliation": "東京科学大学 生命理工学院",
+    "laboratory": "山田研究室",
+    "laboratoryLink": "https://comp.life.isct.ac.jp/",
+    "position": "博士後期課程",
+    "email": "hirota.k.f777[at]m.isct.ac.jp",
+    "links": [
+      ["Twitter", "https://x.com/h160ta"],
+      ["GitHub", "https://github.com/hirotak22"],
+      ["Researchmap", "https://researchmap.jp/keisukehirota"],
+      ["Google Scholar", "https://scholar.google.com/citations?user=5oq0yQ4AAAAJ"],
+      ["ORCID", "https://orcid.org/0009-0003-6697-2355"]
+    ]
+  },
+  "lastUpdated": "2026/06/18",
+  "researchTopics": [
+    {
+      "title": "ゲノム言語モデルの開発・解析・応用",
+      "description": "AI for Scienceの代表例として、ゲノムを対象とした大規模言語モデルであるゲノム言語モデルが注目されています。ゲノム言語モデルの開発・解析・応用を通じて、AI駆動型生命科学の推進に取り組んでいます。",
+      "works": [
+        {
+          "authors": "Hirota K et al.",
+          "journal": "bioRxiv",
+          "year": "2026",
+          "href": "https://doi.org/10.64898/2026.02.22.707219"
+        }
+      ]
+    },
+    {
+      "title": "酵素スクリーニングのための計算手法の開発",
+      "description": "酵素は、生物の活動に必須な生体触媒であるだけでなく、幅広い産業にも応用されている重要なタンパク質です。その中でも特に「オーファン酵素」と呼ばれる遺伝子配列が未知である酵素に注目し、酵素機能をもとに候補遺伝子を多種多様なゲノムから探索するための計算手法の開発に取り組んでいます。",
+      "works": [
+        {
+          "authors": "Hirota K et al.",
+          "journal": "Bioinformatics",
+          "year": "2025",
+          "href": "https://doi.org/10.1093/bioinformatics/btaf053"
+        },
+        {
+          "authors": "Hirota K et al.",
+          "journal": "bioRxiv",
+          "year": "2026",
+          "href": "https://doi.org/10.1101/2025.07.28.667344"
+        }
+      ]
+    },
+    {
+      "title": "微生物群集における細菌とファージの相互作用の理解",
+      "description": "ヒト腸内など多様な環境のメタゲノムデータを解析し、微生物の多様性と相互作用を理解することを目指しています。",
+      "works": []
+    }
+  ],
+  "biographyItems": [
+    {
+      "period": "2025/04 - 2028/03（予定）",
+      "affiliation": "東京科学大学 生命理工学院 博士後期課程"
+    },
+    {
+      "period": "2023/04 - 2025/03",
+      "affiliation": "東京科学大学 生命理工学院 修士課程 修士（理学）"
+    },
+    {
+      "period": "2019/04 - 2023/03",
+      "affiliation": "東京工業大学 生命理工学院 学士課程 学士（工学）"
+    }
+  ],
+  "activities": [
+    {
+      "title": "職務経歴",
+      "rows": [
+        ["2026/06 - 現在", "リサーチアシスタント @ ROIS-ALIS (AI-Empowered Life Science Initiative)"],
+        ["2024/09 - 現在", "特任研究員 @ 千葉大学大学院医学研究院"],
+        ["2022/08 - 現在", "リサーチアシスタント @ 東京科学大学 生命理工学院"],
+        ["2022/11 - 2025/02", "インターンシップ @ 株式会社メタジェン"]
+      ]
+    },
+    {
+      "title": "受賞",
+      "rows": [
+        ["2025/10", "口頭発表賞", "CBI学会2025年大会"],
+        ["2025/10", "学生発表奨励賞", "CBI学会2025年大会"],
+        ["2023/03", "令和4年度 高宮賞", "東京工業大学 生命理工学院"],
+        ["2023/03", "令和4年度 東京工業大学 優秀学生賞", "東京工業大学"]
+      ]
+    },
+    {
+      "title": "奨学金",
+      "rows": [
+        [
+          "2025/04 - 2028/03",
+          "Tokyo Tech SPRING（現 Science Tokyo Support Program for Doctoral Students）"
+        ]
+      ]
+    },
+    {
+      "title": "その他",
+      "rows": [
+        ["2025/08", "子どもサイエンス教室「腸内細菌ってなんだ?」2025 夏"],
+        ["2024/04", "Dry×Wet 生命科学アイデアソン@INDEST"],
+        ["2024/03", "子どもサイエンス教室「腸内細菌ってなんだ?」2024 春"],
+        ["2023/11", "子どもサイエンス教室「腸内細菌ってなんだ?」in 那覇"]
+      ]
+    }
+  ]
+}

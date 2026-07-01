@@ -1,0 +1,94 @@
+---
+import type { SiteContent } from "../contents/types";
+
+type Props = {
+  content: SiteContent;
+};
+
+const { content } = Astro.props;
+const { profile } = content;
+---
+
+<article class="page-content">
+  <section aria-labelledby="home-heading">
+    <div class="intro-layout">
+      <div class="portrait">
+        <img src="/profile.jpg" alt={`${profile.name} profile photo`} />
+      </div>
+
+      <div class="intro-copy">
+        <h1 id="home-heading">{profile.name}</h1>
+        <ul class="profile-list" aria-label={content.labels.profile}>
+          <li>{profile.affiliation}</li>
+          <li>
+            <a href={profile.laboratoryLink} target="_blank" rel="noreferrer">
+              {profile.laboratory}
+            </a>
+          </li>
+          <li>{profile.position}</li>
+          <li>{content.labels.email}: {profile.email}</li>
+          <li class="profile-links">
+            <span>{content.labels.links}:</span>
+            {
+              profile.links.map(([label, href], index) => (
+                <>
+                  {index > 0 && <span aria-hidden="true">|</span>}
+                  <a href={href} target="_blank" rel="noreferrer">{label}</a>
+                </>
+              ))
+            }
+          </li>
+          <li>{content.labels.lastUpdated}: {content.lastUpdated}</li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="research-section" aria-labelledby="research-heading">
+      <h2 id="research-heading">{content.headings.research}</h2>
+      <div class="research-list">
+        {
+          content.researchTopics.map((topic) => (
+            <section class="research-topic">
+              <h3>{topic.title}</h3>
+              <p>
+                {topic.description}
+                {
+                  topic.works.length > 0 && (
+                    <>
+                      {topic.works.map((work, index) => (
+                        <>
+                          {index === 0 ? " (" : "; "}
+                          <a href={work.href} target="_blank" rel="noreferrer">
+                            {work.authors} <em>{work.journal}</em> {work.year}
+                          </a>
+                          {index === topic.works.length - 1 && ")"}
+                        </>
+                      ))}
+                    </>
+                  )
+                }
+              </p>
+            </section>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="bio-section" aria-labelledby="bio-heading">
+      <h2 id="bio-heading">{content.headings.biography}</h2>
+      <div class="bio-timeline">
+        {
+          content.biographyItems.map((item) => (
+            <section class="bio-item">
+              <div class="bio-marker" aria-hidden="true"></div>
+              <div class="bio-content">
+                <time>{item.period}</time>
+                <p>{item.affiliation}</p>
+              </div>
+            </section>
+          ))
+        }
+      </div>
+    </section>
+  </section>
+</article>

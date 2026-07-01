@@ -1,0 +1,73 @@
+[
+  {
+    "year": "2025",
+    "detail": "近藤滋, 東光一, 笠原雅弘, 二階堂愛, 廣田佳亮, 鈴木翔介. ゲノム言語モデルの現在と未来, 第48回日本分子生物学会年会, 2F-08, パシフィコ横浜, 2025年12月",
+    "type": "口頭発表"
+  },
+  {
+    "year": "2025",
+    "detail": "廣田佳亮, 山田拓司. 反応情報に基づく網羅的な酵素スクリーニングのための深層学習モデル「DeepRES」の開発, 第48回日本分子生物学会年会, 2P-244, パシフィコ横浜, 2025年12月",
+    "type": "ポスター発表"
+  },
+  {
+    "year": "2025",
+    "detail": "松澤賢吾, 高石紗楽, 杉山智美, 廣田佳亮, 天海花菜, 鹿島誠, 山田拓司, 白木伸明, 粂昭苑. 短鎖脂肪酸による膵β細胞分化と機能成熟の促進, 第48回日本分子生物学会年会, 3P-596, パシフィコ横浜, 2025年12月",
+    "type": "ポスター発表"
+  },
+  {
+    "year": "2025",
+    "detail": "Keisuke HIROTA, Takuji YAMADA. DeepRES: Deep learning enables reaction-based comprehensive enzyme screening, CBI学会2025年大会, O05-04, タワーホール船堀, 2025年10月",
+    "type": "口頭発表",
+    "note": "口頭発表賞・学生発表奨励賞受賞"
+  },
+  {
+    "year": "2025",
+    "detail": "廣田佳亮, 山田拓司. DeepRES: Deep learning enables reaction-based comprehensive enzyme screening, 2025年日本バイオインフォマティクス学会年会 第13回生命医薬情報学連合大会 (IIBMP2025), OS-304, 名古屋大学豊田講堂・シンポジオン, 2025年9月",
+    "type": "口頭発表"
+  },
+  {
+    "year": "2025",
+    "detail": "廣田佳亮, 山田拓司. DeepRES: Deep learning enables reaction-based comprehensive enzyme screening, 2025年日本バイオインフォマティクス学会年会 第13回生命医薬情報学連合大会 (IIBMP2025), PO-152, 名古屋大学豊田講堂・シンポジオン, 2025年9月",
+    "type": "ポスター発表"
+  },
+  {
+    "year": "2025",
+    "detail": "廣田佳亮, 山田拓司. オーファン酵素遺伝子探索のための深層学習を用いた酵素スクリーニング手法の開発, 第7回日本メディカルAI学会学術集会, P-2-26, 国立京都国際会館, 2025年6月",
+    "type": "ポスター発表"
+  },
+  {
+    "year": "2025",
+    "detail": "廣田佳亮, 山田拓司. Deep learning-based enzyme screening to identify orphan　enzyme, 第98回日本細菌学会総会, P2-67, 石川県立音楽堂, 2025年5月",
+    "type": "ポスター発表"
+  },
+  {
+    "year": "2025",
+    "detail": "佐藤龍飛, 廣田佳亮, 山田拓司. Prediction of medium components for bacteria using Machine Learning, 第98回日本細菌学会総会, P2-70, 石川県立音楽堂, 2025年5月",
+    "type": "ポスター発表"
+  },
+  {
+    "year": "2024",
+    "detail": "Keisuke HIROTA, Takuji YAMADA. Deep learning-based enzyme screening to identify orphan enzyme genes, CBI学会2024年大会, P03-12, タワーホール船堀, 2024年10月",
+    "type": "ポスター発表"
+  },
+  {
+    "year": "2024",
+    "detail": "廣田佳亮, 山田拓司. オーファン酵素探索のための深層学習を用いた酵素スクリーニング手法の開発, 生命情報科学若手の会 第16回年会, 21, ニューウェルシティ湯河原, 2024年9月",
+    "type": "ポスター発表"
+  },
+  {
+    "year": "2024",
+    "detail": "廣田佳亮, 山田拓司. オーファン酵素遺伝子特定のための酵素機能予測モデルの開発, 日本農芸化学会2024年度大会, 2B4p06, 東京農業大学世田谷キャンパス, 2024年3月",
+    "type": "口頭発表"
+  },
+  {
+    "year": "2024",
+    "detail": "廣田佳亮, 山田拓司. オーファン酵素遺伝子探索のための深層学習を用いた酵素機能予測モデルの開発, 第18回日本ゲノム微生物学会年会, 3O1-08, かずさアカデミアホール, 2024年3月",
+    "type": "口頭発表"
+  },
+  {
+    "year": "2023",
+    "detail": "廣田佳亮, 山田拓司. Development of deep learning model for gene function prediction, 2023年日本バイオインフォマティクス学会年会 第12回生命医薬情報学連合大会 (IIBMP2023), P-13, 柏の葉カンファレンスセンター, 2023年9月",
+    "type": "ポスター発表"
+  }
+]

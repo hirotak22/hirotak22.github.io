@@ -1,0 +1,116 @@
+---
+import presentationData from "../contents/presentations.json";
+import publicationData from "../contents/publications.json";
+import type { Presentation, Publication, SiteContent } from "../contents/types";
+
+type Props = {
+  content: SiteContent;
+};
+
+const { content } = Astro.props;
+const publications = publicationData as unknown as Publication[];
+const presentations = presentationData as unknown as Presentation[];
+const highlightedAuthorNames = ["Keisuke Hirota", "Keisuke HIROTA", "Hirota K", "廣田佳亮"];
+const authorHighlightPattern = new RegExp(
+  `(${highlightedAuthorNames.map((name) => name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})`,
+  "g",
+);
+const splitByHighlightedAuthor = (text: string): string[] => text.split(authorHighlightPattern);
+const isHighlightedAuthor = (text: string): boolean => highlightedAuthorNames.includes(text);
+
+const groupByYear = <T extends { readonly year: string }>(items: readonly T[]) => {
+  const groups = items.reduce<Record<string, T[]>>((groupedItems, item) => {
+    groupedItems[item.year] = groupedItems[item.year] ?? [];
+    groupedItems[item.year].push(item);
+    return groupedItems;
+  }, {});
+
+  return Object.entries(groups)
+    .sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
+    .map(([year, yearItems]) => ({ year, items: yearItems }));
+};
+
+const groupedPublications = groupByYear<Publication>(publications);
+const groupedPresentations = groupByYear<Presentation>(presentations);
+const shouldShowPresentations = content.language === "ja";
+const presentationHeading = content.headings.presentations ?? "Presentations";
+---
+
+<article class="page-content">
+  <div class="section-heading">
+    <h2>{content.headings.publications}</h2>
+  </div>
+  <div class="publication-groups">
+    {
+      groupedPublications.map((group) => (
+        <section class="publication-year-group">
+          <time>{group.year}</time>
+          <div class="publication-list">
+            {group.items.map((publication) => (
+              <section class="publication-item">
+                <h2>{publication.title}</h2>
+                <p>
+                  {splitByHighlightedAuthor(publication.authors).map((part) => (
+                    <>
+                      {isHighlightedAuthor(part) ? (
+                        <span class="publication-author-highlight">{part}</span>
+                      ) : (
+                        part
+                      )}
+                    </>
+                  ))}
+                </p>
+                <p class="muted">
+                  <a href={publication.link} target="_blank" rel="noreferrer">
+                    <em>{publication.journal}</em>
+                  </a>
+                </p>
+              </section>
+            ))}
+          </div>
+        </section>
+      ))
+    }
+  </div>
+
+  {
+    shouldShowPresentations && (
+      <section class="presentation-section" aria-labelledby="presentation-heading">
+        <div class="section-heading">
+          <h2 id="presentation-heading">{presentationHeading}</h2>
+        </div>
+        <div class="publication-groups">
+          {groupedPresentations.map((group) => (
+            <section class="publication-year-group">
+              <time>{group.year}</time>
+              <ul class="presentation-list">
+                {group.items.map((presentation) => (
+                  <li class="presentation-item">
+                    <span>
+                      {splitByHighlightedAuthor(presentation.detail).map((part) => (
+                        <>
+                          {isHighlightedAuthor(part) ? (
+                            <span class="publication-author-highlight">{part}</span>
+                          ) : (
+                            part
+                          )}
+                        </>
+                      ))}
+                      （{presentation.type}）
+                      {presentation.note && (
+                        <>
+                          {" "}
+                          <span class="presentation-note">（{presentation.note}）</span>
+                        </>
+                      )}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </div>
+      </section>
+    )
+  }
+</article>

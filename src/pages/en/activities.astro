@@ -1,0 +1,12 @@
+---
+import ActivitiesContent from "../../components/ActivitiesContent.astro";
+import contentData from "../../contents/en.json";
+import type { SiteContent } from "../../contents/types";
+import Layout from "../../layouts/Layout.astro";
+
+const content = contentData as unknown as SiteContent;
+---
+
+<Layout content={content} activePage="activities">
+  <ActivitiesContent content={content} />
+</Layout>

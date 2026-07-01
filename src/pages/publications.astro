@@ -1,0 +1,12 @@
+---
+import PublicationsContent from "../components/PublicationsContent.astro";
+import contentData from "../contents/ja.json";
+import type { SiteContent } from "../contents/types";
+import Layout from "../layouts/Layout.astro";
+
+const content = contentData as unknown as SiteContent;
+---
+
+<Layout content={content} activePage="publications">
+  <PublicationsContent content={content} />
+</Layout>

@@ -1,0 +1,23 @@
+[
+  {
+    "year": "2026",
+    "title": "Benchmarking long-context genome language models on biosynthetic gene clusters",
+    "authors": "Hirota K, Higashi K, Kurokawa K, Yamada T",
+    "journal": "bioRxiv",
+    "link": "https://doi.org/10.64898/2026.02.22.707219"
+  },
+  {
+    "year": "2026",
+    "title": "DeepRES: Deep learning enables reaction-based comprehensive enzyme screening",
+    "authors": "Hirota K, Yamada T",
+    "journal": "bioRxiv",
+    "link": "https://doi.org/10.1101/2025.07.28.667344"
+  },
+  {
+    "year": "2025",
+    "title": "DeepES: deep learning-based enzyme screening to identify orphan enzyme genes",
+    "authors": "Hirota K, Salim F, Yamada T",
+    "journal": "Bioinformatics",
+    "link": "https://doi.org/10.1093/bioinformatics/btaf053"
+  }
+]

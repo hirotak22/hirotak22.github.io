@@ -1,6 +1,11 @@
 [
   {
     "year": "2026",
+    "detail": "Keisuke HIROTA, Koichi HIGASHI, Ken KUROKAWA, Takuji YAMADA. Benchmarking long-context genome language models on biosynthetic gene clusters, CBI学会2026年大会, P02-12, タワーホール船堀, 2026年10月",
+    "type": "ポスター発表"
+  },
+  {
+    "year": "2026",
     "detail": "廣田佳亮. 生合成遺伝子クラスターを用いた長文脈ゲノム言語モデルの包括的評価, 2026年日本バイオインフォマティクス学会年会・第14回生命医薬情報学連合大会 (IIBMP2026), WS-6, 小田急ホテルセンチュリー相模大野, 2026年8月",
     "type": "口頭発表"
   },

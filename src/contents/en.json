@@ -29,7 +29,7 @@
       ["ORCID", "https://orcid.org/0009-0003-6697-2355"]
     ]
   },
-  "lastUpdated": "2026/11/03",
+  "lastUpdated": "2026/11/05",
   "researchTopics": [
     {
       "title": "Genomic Language Models",
@@ -55,9 +55,9 @@
         },
         {
           "authors": "Hirota K et al.",
-          "journal": "bioRxiv",
+          "journal": "Genome Biology",
           "year": "2026",
-          "href": "https://doi.org/10.1101/2025.07.28.667344"
+          "href": "https://doi.org/10.1186/s13059-026-04312-7"
         }
       ]
     },
